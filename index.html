@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Tesfaye | Personal Trainer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- ======================================== -->
+<!-- HEADER / NAVIGATION                      -->
+<!-- ======================================== -->
+<header class="header">
+    <div class="container">
+        <div class="logo">
+      <img src="../images/logo-img.jpg" alt="Coach Tesfaye Logo" class="logo-img"> 
+
+             <div class="logo-text"> 
+                <span class="gold">✦</span> TESFAYE <span class="gold">✦</span>
+                <small>GYM TRAINER</small>
+             </div>
+        </div>
+        
+        <ul class="nav-desktop" id="navdesktop">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        
+        <div class="nav-cta">
+            <a href="#booking" class="btn-gold">START TODAY</a>
+        </div>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!-- ===== MOBILE MENU (Hidden by default, shows when hamburger clicked) ===== -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <span class="gold">✦</span> TESFAYE <span class="gold">✦</span>
+                    <small>GYM TRAINER</small>
+                </div>
+                <button class="mobile-close" id="mobileClose">✕</button>
+            </div>
+            <ul class="mobile-nav">
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#services">💪 Services</a></li>
+                <li><a href="#pricing">💰 Pricing</a></li>
+                <li><a href="#gallery">📸 Gallery</a></li>
+                <li><a href="#testimonials">⭐ Testimonials</a></li>
+                <li><a href="#contact">📞 Contact</a></li>
+                <li class="mobile-cta"><a href="#booking" class="btn-gold">START TODAY</a></li>
+            </ul>
+        </div>
+        
+        <!-- Overlay when mobile menu is open -->
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+    </div>
+ </header>
+<!-- ======================================== -->
+<!-- HERO SECTION                             -->
+<!-- ======================================== -->
+<section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+                 <div class="hero-badge">
+            <span class="gold">✦</span> PRSONAL TRAINING <span class="gold">✦</span>
+        </div>
+        <h1>
+            BUILD YOUR <span class="gold">STRONGEST</span> BODY<br>
+            WITH <span class="gold">COACH TESFAYE</span>
+        </h1>
+         <p class="hero-subtitle">Strength for Life, Not Just the Gym</p>
+        <div class="hero-info">
+            <span>🏋️ 1 on 1 Coaching</span>
+            <span class="price-divider">|</span>
+            <span>💰 Flexible Plans from <span class="gold">800 ብር</span></span>
+        </div>
+        <div class="hero-buttons">
+            <a href="#booking" class="btn-gold btn-large">📞 BOOK FREE CONSULTATION</a>
+            <a href="#services" class="btn-outline">View Services</a>
+        </div>
+    </div>
+</section>
+ <!-- ======================================== -->
+<!-- COUNTDOWN TIMER SECTION                   -->
+<!-- ======================================== -->
+<section class="countdown-section">
+    <div class="container">
+        <div class="countdown-wrapper">
+            <span class="countdown-badge gold">🔥 SPECIAL OFFER</span>
+            <h2>Launching In</h2>
+            <div class="countdown-timer" id="countdownTimer">
+                <div class="countdown-box">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-number" id="minutes">54</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-number" id="seconds">21</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            <p class="countdown-text"> አዲስ ነገር አለ በቅርቡ ይጥብቁን COACHE TESFAYE   </p>
+        </div>
+    </div>
+</section>
+ 
+   <!-- ======================================== -->
+<!-- SERVICES SECTION WITH VIDEO BACKGROUND  -->
+<!-- ======================================== -->
+<section class="services" id="services">
+    
+    <!-- BACKGROUND VIDEO -->
+    <div class="services-video-wrapper">
+        <video class="services-video" autoplay muted loop playsinline>
+            <source src="images/service-video.mp4" type="video/mp4">
+            
+        </video>
+    </div>
+    
+    <!-- DARK OVERLAY -->
+    <div class="services-overlay"></div>
+    
+    <!-- SERVICES CONTENT (on top of video) -->
+    <div class="container services-content">
+        <div class="section-header">
+            <span class="section-tag gold">WHAT I OFFER</span>
+            <h2>My <span class="gold">Services</span></h2>
+            <p>Expert coaching tailored to your goals – whether in-person or online</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-icon">💪</div>
+                <h3>1-on-1 Coaching</h3>
+                <p>Personalized training sessions designed specifically for your body, goals, and schedule.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Online Training</h3>
+                <p>Get expert coaching anywhere in the world with video calls, custom plans, and progress tracking.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon">👥</div>
+                <h3>Group Training</h3>
+                <p>High-energy group sessions that combine expert-led workouts with team motivation.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon">🥗</div>
+                <h3>Nutrition Guidance</h3>
+                <p>Customized meal plans and nutrition advice to fuel your fitness journey.</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Custom Programs</h3>
+                <p>Tailored programs for fat loss, muscle gain, mobility, endurance – whatever your goal!</p>
+                <a href="#booking" class="service-link">Book Now →</a>
+            </div>
+        </div>
+    </div>
+</section>
+             
+<!-- ======================================== -->
+<!-- PRICING SECTION (IN BIRR)               -->
+<!-- ======================================== -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">INVEST IN YOURSELF</span>
+            <h2>Pricing <span class="gold">Plans</span></h2>
+            <p>የፈለጉትን መርጥው መመዝገብ ይችላሉ coach ተስፋዬ</p>
+        </div>
+        
+        <div class="pricing-grid">
+            <!-- Hourly -->
+            <div class="pricing-card">
+                <div class="pricing-badge">POPULAR</div>
+                <h3>Hourly Session</h3>
+                <div class="price"><span class="currency">ብር</span>800</div>
+                <p>Perfect for busy schedules</p>
+                <ul class="pricing-features">
+                    <li>✓ 1-on-1 coaching</li>
+                    <li>✓ Custom workout plan</li>
+                    <li>✓ Form correction</li>
+                    <li>✓ Instant feedback</li>
+                </ul>
+                <a href="#booking" class="btn-gold">Book Now</a>
+            </div>
+            
+            <!-- Daily -->
+            <div class="pricing-card featured">
+                <div class="pricing-badge gold-bg">MOST POPULAR</div>
+                <h3>Daily Pass</h3>
+                <div class="price"><span class="currency">ብር</span>1,500</div>
+                <p>Full day of training</p>
+                <ul class="pricing-features">
+                    <li>✓ All services included</li>
+                    <li>✓ Nutrition consult</li>
+                    <li>✓ Full gym access</li>
+                    <li>✓ Progress tracking</li>
+                </ul>
+                <a href="#booking" class="btn-gold">Book Now</a>
+            </div>
+            
+            <!-- Monthly -->
+            <div class="pricing-card">
+                <div class="pricing-badge">BEST VALUE</div>
+                <h3>Monthly Unlimited</h3>
+                <div class="price"><span class="currency">ብር</span>12,000</div>
+                <p>Commit to your transformation</p>
+                <ul class="pricing-features">
+                    <li>✓ Unlimited sessions</li>
+                    <li>✓ Full meal plan</li>
+                    <li>✓ 24/7 support</li>
+                    <li>✓ Priority booking</li>
+                </ul>
+                <a href="#booking" class="btn-gold">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- PACKAGES SECTION                         -->
+<!-- ======================================== -->
+<section class="packages">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">CHOOSE YOUR GOAL</span>
+            <h2>Training <span class="gold">Packages</span></h2>
+            <p>Specialized programs for every fitness goal</p>
+        </div>
+        
+        <div class="packages-grid">
+            <div class="package-card">
+                <div class="package-icon">🔥</div>
+                <h3>Fat Loss</h3>
+                <p>Burn fat, tone your body, and build confidence</p>
+                <span class="package-price">8,000 ብር/month</span>
+                <a href="#booking" class="btn-outline">Get Started</a>
+            </div>
+            
+            <div class="package-card">
+                <div class="package-icon">💪</div>
+                <h3>Muscle Gain</h3>
+                <p>Build strength, size, and a powerful physique</p>
+                <span class="package-price">10,000 ብር/month</span>
+                <a href="#booking" class="btn-outline">Get Started</a>
+            </div>
+            
+            <div class="package-card">
+                <div class="package-icon">🦵</div>
+                <h3>Mobility</h3>
+                <p>Improve flexibility, recover faster, move better</p>
+                <span class="package-price">6,000 ብር/month</span>
+                <a href="#booking" class="btn-outline">Get Started</a>
+            </div>
+            
+            <div class="package-card">
+                <div class="package-icon">⚡</div>
+                <h3>Endurance</h3>
+                <p>Boost stamina, cardio, and athletic performance</p>
+                <span class="package-price">7,000 ብር/month</span>
+                <a href="#booking" class="btn-outline">Get Started</a>
+            </div>
+            
+            <div class="package-card featured-package">
+                <div class="package-icon">🌟</div>
+                <h3>Elite Package</h3>
+                <p>All 4 programs combined + full nutrition plan</p>
+                <span class="package-price">15,000 ብር/month</span>
+                <a href="#booking" class="btn-gold">Get Started</a>
+            </div>
+            
+            <div class="package-card">
+                <div class="package-icon">🎯</div>
+                <h3>Custom Plan</h3>
+                <p>Tailored just for you – contact for details</p>
+                <span class="package-price">Contact Me</span>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+  
+ <!-- ======================================== -->
+<!-- IMAGE SLIDER / GALLERY                   -->
+<!-- ======================================== -->
+<section class="gallery-slider" id="gallery">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">REAL RESULTS</span>
+            <h2>Client <span class="gold">Transformations</span></h2>
+            <p>See the amazing results our clients have achieved</p>
+        </div>
+        
+        <div class="slider-container">
+            <div class="slider-wrapper" id="sliderWrapper">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="images/transformation/5.jpg" alt="Transformation 1">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> Before & After <span class="gold">✦</span>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="images/transformation/6.jpg" alt="Transformation 2">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> 3 Month Progress <span class="gold">✦</span>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="images/transformation/1.jpg" alt="Transformation 3">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> Weight Loss Journey <span class="gold">✦</span>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="images/transformation/3.jpg" alt="Transformation 4">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> Muscle Gain <span class="gold">✦</span>
+                    </div>
+                </div>
+                 <!-- Slide 5 -->
+                <div class="slide">
+                    <img src="images/transformation/2.jpg" alt="Transformation 2">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> 3 Month Progress <span class="gold">✦</span>
+                    </div>
+                </div>
+                 <!-- Slide 6 -->
+                <div class="slide">
+                    <img src="images/transformation/4.jpg" alt="Transformation 2">
+                    <div class="slide-caption">
+                        <span class="gold">✦</span> 3 Month Progress <span class="gold">✦</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slider Controls -->
+            <button class="slider-arrow prev-arrow" id="prevSlide">❮</button>
+            <button class="slider-arrow next-arrow" id="nextSlide">❯</button>
+            
+            <!-- Dots -->
+            <div class="slider-dots" id="sliderDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- TESTIMONIALS SECTION                     -->
+<!-- ======================================== -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">CLIENT STORIES</span>
+            <h2>What My <span class="gold">Clients Say</span></h2>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐</div>
+                <p>"Coach Tesfaye changed my life! I lost 15kg in just 3 months. His training program and nutrition advice were game-changers. Highly recommend!"</p>
+                <div class="testimonial-client">
+                    <strong>sisay</strong>
+                    <span>Addis Ababa</span>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p>"Best trainer ever! Coach Tesfaye pushes you to your limits while making sure you stay safe and motivated. I've never felt stronger."</p>
+                <div class="testimonial-client">
+                    <strong>nebiyat</strong>
+                    <span>Addis Ababa</span>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                <p>"Online training worked perfectly for me. Coach Tesfaye created a custom program that fit my schedule and helped me reach my goals from home."</p>
+                <div class="testimonial-client">
+                    <strong>Dawit</strong>
+                    <span>Addis Ababa</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- CLIENT COUNTER / STATS                   -->
+<!-- ======================================== -->
+<section class="stats-counter">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="150">65</span>
+                <span class="stat-label">Happy Clients</span>
+                <span class="stat-icon">🏆</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="5000">43</span>
+                <span class="stat-label">Sessions Completed</span>
+                <span class="stat-icon">💪</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="10">12</span>
+                <span class="stat-label">Years Experience</span>
+                <span class="stat-icon">⭐</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="98">96%</span>
+                <span class="stat-label">Success Rate %</span>
+                <span class="stat-icon">🎯</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- FAQ SECTION                              -->
+<!-- ======================================== -->
+<section class="faq" id="faq">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">GOT QUESTIONS?</span>
+            <h2>Frequently Asked <span class="gold">Questions</span></h2>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>💪 Do I need my own equipment?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Not at all! I provide all the equipment you need for our sessions. Just bring your motivation and a water bottle!</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>📅 How often should I train?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>For best results, I recommend 3-4 sessions per week. But we can customize a schedule that fits your lifestyle and goals.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>📱 Can I do online training?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! I offer online coaching with personalized workout plans, video calls, progress tracking, and 24/7 support.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>🥗 Do you offer nutrition plans?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! I provide customized meal plans and nutrition guidance to complement your fitness goals and maximize results.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>⏱️ How soon will I see results?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Most clients start seeing noticeable changes within 2-4 weeks with consistency and dedication. Everyone's journey is unique!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- FITNESS TIPS SECTION                     -->
+<!-- ======================================== -->
+<section class="fitness-tips">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">LEARN & GROW</span>
+            <h2>Fitness <span class="gold">Tips</span></h2>
+            <p>Expert advice to help you on your fitness journey</p>
+        </div>
+        
+        <div class="tips-grid">
+            <div class="tip-card">
+                <div class="tip-icon">💧</div>
+                <h3>Hydration is Key</h3>
+                <p>Drink at least 2-3 liters of water daily. Proper hydration boosts performance, aids recovery, and keeps you energized.</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">📅</div>
+                <h3>Consistency Over Intensity</h3>
+                <p>It's better to train consistently 3x a week than to go all out once and quit. Build the habit for long-term success.</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">🥩</div>
+                <h3>Protein After Workout</h3>
+                <p>Eat protein within 30 minutes after training to maximize muscle repair and growth. A protein shake or lean meal works great.</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">😴</div>
+                <h3>Sleep = Recovery</h3>
+                <p>Your muscles grow while you sleep. Aim for 7-9 hours of quality sleep every night for optimal recovery and performance.</p>
+            </div>
+            
+            <div class="tip-card">
+                <div class="tip-icon">📊</div>
+                <h3>Track Your Progress</h3>
+                <p>Take photos, measurements, and track your workouts. Progress is motivating and helps you stay on track to your goals!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- CAREER JOURNEY – 12 YEARS TIMELINE       -->
+<!-- ======================================== -->
+<section class="career-journey" id="career">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">📜 MY STORY</span>
+            <h2>12 Years of <span class="gold">Fitness Excellence</span></h2>
+            <p>From humble beginnings to becoming one of Ethiopia's most trusted personal trainers</p>
+        </div>
+
+        <div class="career-slider-container">
+            <div class="career-slider-wrapper" id="careerSlider">
+                
+                <!-- ===== MILESTONE 1: Beginning ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/tesfaye picture.jpg" alt="Beginning of Career">
+                        <div class="career-year">2014</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">01</span>
+                        <span class="career-tag">BEGINNING</span>
+                        <h3>The Start of a Dream</h3>
+                        <p>Started my journey as a personal trainer with a simple mission: to help people discover their strength. Trained my first clients in local gyms and parks, building a foundation of trust and results.</p>
+                        <div class="career-highlights">
+                            <span>🏋️ First 10 Clients</span>
+                            <span>📅 2014</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 2: First Major Event ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/famous1.jpg" alt="First Major Event">
+                        <div class="career-year">2016</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">02</span>
+                        <span class="career-tag">famous person</span>
+                        <h3><picture>with famous person </picture></h3>
+                        <p> kenenisa bekele meseret defar <picture></picture>Organized and led my first large-scale fitness event, bringing together over 200 participants. This was a turning point in my career, showcasing my ability to inspire and lead groups.</p>
+                        <div class="career-highlights">
+                            <span>👥 200+ Participants</span>
+                            <span>📅 2016</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 3: Community Programs ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/blood_donation.jpg" alt="Community Programs">
+                        <div class="career-year">2018</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">03</span>
+                        <span class="career-tag">blood donation</span>
+                        <h3>Community Fitness to donate blood</h3>
+                        <p>in this day blood donate and to go Launched free fitness programs in condominium communities, bringing health and wellness to neighborhoods. Trained over 500 residents, empowering them with lifelong fitness habits.</p>
+                        <div class="career-highlights">
+                            <span>🏡 10+ Communities</span>
+                            <span>📅 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 4: Meeting Officials ===== -->
+                 <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/famous2.jpg" alt="Meeting Officials">
+                        <div class="career-year">2019</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">04</span>
+                        <span class="career-tag">NETWORKING</span>
+                        <h3>Connecting with Leaders</h3>
+                        <p>Honored to work alongside senior government officials and community leaders, promoting health and fitness across Ethiopia. Built a network of influence and impact.</p>
+                        <div class="career-highlights">
+                            <span>🤝 20+ Leaders</span>
+                            <span>📅 2019</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 5: Certifications ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/certeficate.jpg" alt="Certifications">
+                        <div class="career-year">2020</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">05</span>
+                        <span class="career-tag">CERTIFICATION</span>
+                        <h3>Professional Certifications</h3>
+                        <p>Earned international certifications in personal training, nutrition, and sports coaching. Continuously learning to provide the best science-backed training for clients.</p>
+                        <div class="career-highlights">
+                            <span>🎓 5+ Certifications</span>
+                            <span>📅 2020</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 6: First Online Client ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/5.jpg" alt="Online Training">
+                        <div class="career-year">2021</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">06</span>
+                        <span class="career-tag">INNOVATION</span>
+                        <h3>Online Training Expansion</h3>
+                        <p>Launched online coaching services, reaching clients across Ethiopia and abroad. Helped 100+ clients transform from the comfort of their homes.</p>
+                        <div class="career-highlights">
+                            <span>🌍 15+ Countries</span>
+                            <span>📅 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 7: Awards ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/certificate_2.jpg" alt="Awards">
+                        <div class="career-year">2022</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">07</span>
+                        <span class="career-tag">RECOGNITION</span>
+                        <h3>Industry Recognition</h3>
+                        <p>Received prestigious fitness awards for excellence in personal training and community impact. Recognized as a top trainer in Ethiopia.</p>
+                        <div class="career-highlights">
+                            <span>🏆 3 Major Awards</span>
+                            <span>📅 2022</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- ===== MILESTONE 8: Major Festival ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/7.jpg" alt="Major Fitness Festival">
+                        <div class="career-year">2023</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">08</span>
+                        <span class="career-tag">IMPACT</span>
+                        <h3>National Fitness Festival</h3>
+                        <p>Headlined Ethiopia's largest fitness festival, leading workshops and training sessions for 1,000+ participants. Inspired a new generation of fitness enthusiasts.</p>
+                        <div class="career-highlights">
+                            <span>🔥 1,000+ People</span>
+                            <span>📅 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 9: Elite Clients ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/8.jpg" alt="Elite Clients">
+                        <div class="career-year">2024</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">09</span>
+                        <span class="career-tag">EXCELLENCE</span>
+                        <h3>Training Elite Athletes</h3>
+                        <p>Became the go-to trainer for top athletes, government officials, and celebrities. Helped transform over 1,000 lives through personalized fitness programs.</p>
+                        <div class="career-highlights">
+                            <span>⭐ 100+ Elite Clients</span>
+                            <span>📅 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== MILESTONE 10: Today ===== -->
+                <div class="career-slide">
+                    <div class="career-image">
+                        <img src="images/gallery/9.jpg" alt="Today">
+                        <div class="career-year">2025</div>
+                    </div>
+                    <div class="career-content">
+                        <span class="career-number gold">10</span>
+                        <span class="career-tag">LEGACY</span>
+                        <h3>Building a Fitness Legacy</h3>
+                        <p>Today, I continue to train, mentor, and inspire. My mission is to make fitness accessible to everyone and build a healthier Ethiopia, one person at a time.</p>
+                        <div class="career-highlights">
+                            <span>💪 12+ Years Experience</span>
+                            <span>📅 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ===== Slider Controls ===== -->
+            <button class="career-arrow career-prev" id="careerPrev">❮</button>
+            <button class="career-arrow career-next" id="careerNext">❯</button>
+
+            <!-- ===== Dots ===== -->
+            <div class="career-dots" id="careerDots">
+                <span class="career-dot active" data-index="0"></span>
+                <span class="career-dot" data-index="1"></span>
+                <span class="career-dot" data-index="2"></span>
+                <span class="career-dot" data-index="3"></span>
+                <span class="career-dot" data-index="4"></span>
+                <span class="career-dot" data-index="5"></span>
+                <span class="career-dot" data-index="6"></span>
+                <span class="career-dot" data-index="7"></span>
+                <span class="career-dot" data-index="8"></span>
+                <span class="career-dot" data-index="9"></span>
+            </div>
+            
+            <!-- ===== Counter ===== -->
+            <div class="career-counter">
+                <span id="careerCurrent">01</span> / <span id="careerTotal">10</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================== -->
+<!-- BOOKING FORM SECTION                     -->
+<!-- ======================================== -->
+<section class="booking" id="booking">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">START YOUR JOURNEY</span>
+            <h2>Book Your <span class="gold">Session</span></h2>
+            <p>Fill in your details and start your transformation today!</p>
+        </div>
+        
+        <div class="booking-form">
+           
+            
+            <form id="bookingForm">
+                <!-- Step 1: Personal Info -->
+                <div class="form-step" id="step1">
+                    <h3>📋 Personal Information</h3>
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone *</label>
+                        <input type="tel" id="phone" placeholder="+251 9XX XXX XXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="Male"> Male</label>
+                            <label><input type="radio" name="gender" value="Female"> Female</label>
+                        </div>
+                        <div class="form-group">
+                            <lable>age</lable>
+                            <div class="radio-group">
+                                <label><input type="radio" name="age" value="15-18">15-18</label> 
+                                <label><input type="radio" name="age" value="19-25">19-25</label>
+                               <label><input type="radio" name="age" value="15-18">26-40</label>
+                                <label><input type="radio" name="age" value="40+">40+</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-gold next-step">Next →</button>
+                </div>
+                
+                <!-- Step 2: Select Package -->
+                <div class="form-step" id="step2" style="display:none;">
+                    <h3>💪 Select Your Package</h3>
+                    <div class="form-group">
+                        <label>Choose Package</label>
+                        <select id="package">
+                            <option value="Hourly - 800 ብር">Hourly Session - 800 ብር</option>
+                            <option value="Daily - 1,500 ብር">Daily Pass - 1,500 ብር</option>
+                            <option value="Monthly - 12,000 ብር">Monthly Unlimited - 12,000 ብር</option>
+                            <option value="Fat Loss - 8,000 ብር">Fat Loss Package - 8,000 ብር</option>
+                            <option value="Muscle Gain - 10,000 ብር">Muscle Gain Package - 10,000 ብር</option>
+                            <option value="Mobility - 6,000 ብር">Mobility Package - 6,000 ብር</option>
+                            <option value="Endurance - 7,000 ብር">Endurance Package - 7,000 ብር</option>
+                            <option value="Elite - 15,000 ብር">Elite Package - 15,000 ብር</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Date</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="form-group">
+                        <label>Preferred Time</label>
+                        <select id="time">
+                            <option value="6:00 AM">6:00 AM</option>
+                            <option value="7:00 AM">7:00 AM</option>
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="button" class="btn-outline prev-step">← Back</button>
+                        <button type="button" class="btn-gold next-step">Next →</button>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Payment + Upload -->
+                <div class="form-step" id="step3" style="display:none;">
+                    <h3>💳 Payment</h3>
+                    
+                    <div class="payment-info">
+                        <h4>💰 Total: <span class="gold" id="totalPrice">0 ብር</span></h4>
+                        <p>Selected Package: <strong id="selectedPackageDisplay">-</strong></p>
+                        
+                        <div class="payment-instructions">
+                            <h4>📤 Payment Instructions</h4>
+                            
+                            <p><strong>Bank:</strong> [CBE BIRR]</p>
+                            <p><strong>Account Number:</strong> [1000302591656]</p>
+                            <p><strong>Account Holder:</strong> [ተስፍዬ አጨራምተው]</p>
+                            <p><strong>TeleBirr:</strong> [0911901295]</p>
+                            <p><em>💡 Send payment and upload your receipt below</em></p>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Payment Method</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="paymentMethod" value="TeleBirr"> TeleBirr</label>
+                            <label><input type="radio" name="paymentMethod" value="Bank Transfer"> Bank Transfer</label>
+                            <label><input type="radio" name="paymentMethod" value="Cash"> Cash</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>📤 Upload Payment Screenshot</label>
+                        <input type="file" id="paymentReceipt" accept="image/*">
+                        <p class="file-hint">Upload a screenshot or photo of your payment confirmation</p>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="button" class="btn-outline prev-step">← Back</button>
+                        <button type="submit" class="btn-gold">✅ SUBMIT</button>
+                    </div>
+                </div>
+                
+                <!-- Success Message -->
+                <div id="formSuccess" style="display:none;">
+                    <div class="success-message">
+                        <span class="gold">✅</span>
+                        <h3>Booking Confirmed!</h3>
+                        <p>Thank you! We'll confirm your booking within 24 hours.</p>
+                        <p>come to the office and see your screnshoot and cross check.</p>
+                        <a href="#home" class="btn-gold">Back to Home</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- TRAINER SPOTLIGHT – NEW SECTION          -->
+<!-- ======================================== -->
+<section class="trainer-spotlight" id="trainer">
+    <div class="trainer-container">
+        
+        <!-- BACKGROUND IMAGE -->
+        <div class="trainer-image-wrapper">
+            <img src="images/gallery/tesfaye picture.jpg" alt="Coach Tesfaye" class="trainer-bg-image">
+            <div class="trainer-overlay"></div>
+        </div>
+        
+        <!-- CENTERED CONTENT -->
+        <div class="trainer-content">
+            <div class="trainer-text-box">
+                <span class="trainer-icon gold">✦</span>
+                <h2>Train with <span class="gold">Coach Tesfaye</span></h2>
+                <p>12 years of experience. Thousands of transformations. Your journey starts here.</p>
+                <div class="trainer-stats">
+                    <div class="trainer-stat">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="trainer-stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="trainer-stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+                <a href="#booking" class="btn-gold btn-large">📞 Start Your Journey</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- CONTACT SECTION                          -->
+<!-- ======================================== -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag gold">GET IN TOUCH</span>
+            <h2>Contact <span class="gold">Coach Tesfaye</span></h2>
+        </div>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Addis Ababa, Ethiopia</p>
+                        <p><em>Online coaching available worldwide</em></p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:tesfayeacheramto@gmail.com">tesfayeacheramto@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+251911901295">+251 911 901 295</a></p>
+                        <p><em>Available 6:00 AM - 9:00 PM</em></p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <h4>Follow Me</h4>
+                       <div class="social-icons">
+                       <a href="https://t.me/tesfaye" target="_blank">
+                       <img src="images/telegram-icon.jpg" alt="Telegram" class="social-icon">
+                     </a>
+                      <a href="https://tiktok.com/@tesfaye" target="_blank">
+                     <img src="images/tiktok-icon.jpg" alt="TikTok" class="social-icon">
+                      </a>
+                     <a href="https://facebook.com/tesfaye" target="_blank">
+                    <img src="images/facebook-icon.jpg" alt="Facebook" class="social-icon">
+                        </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-gold">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ======================================== -->
+<!-- FOOTER SECTION                           -->
+<!-- ======================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo-text">
+                    <span class="gold">✦</span> TESFAYE <span class="gold">✦</span>
+                    <small>GYM TRAINER</small>
+                </div>
+                <p>Strength for Life, Not Just the Gym</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+<!-- ======================================== -->
+<!-- FOOTER SOCIAL SECTION                    -->
+<!-- ======================================== -->
+<div class="footer-social">
+    <h4>Follow Me</h4>
+    <div class="social-icons">
+        <a href="https://t.me/tesfaye" target="_blank" aria-label="Telegram">
+            <img src="images/telegram-icon.jpg" alt="Telegram" class="social-icon">
+        </a>
+        <a href="https://tiktok.com/@tesfaye" target="_blank" aria-label="TikTok">
+            <img src="images/tiktok-icon.jpg" alt="TikTok" class="social-icon">
+        </a>
+        <a href="https://facebook.com/tesfaye" target="_blank" aria-label="Facebook">
+            <img src="images/facebook-icon.jpg" alt="Facebook" class="social-icon">
+        </a>
+    </div>
+</div>
+            
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>📧 tesfayeacheramto@gmail.com</p>
+                <p>📞 +251 911 901 295</p>
+                <p>📍 Addis Ababa, Ethiopia</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-divider"></div>
+            
+           
+            <div class="developer-credit">
+                <p>Website Designed & Developed by <strong class="gold">Sisay Abebayew</strong></p>
+                <p class="developer-details">
+                    📧 <a href="mailto:sisayabebayew@gmail.com">sisayabebayew@gmail.com</a>
+                    | 📞 <a href="tel:+251965681966">+251 965 681 966</a>
+                </p>
+                <p class="developer-tagline">"Building digital solutions for your business"</p>
+                <div class="dev-social">
+    <a href="https://instagram.com/@bboysis" target="_blank">
+        <img src="images/instagram-icon.jpg" alt="Instagram" class="social-icon">
+    </a>
+    <a href="https://tiktok.com/@bboysis" target="_blank">
+        <img src="images/tiktok-icon.jpg" alt="TikTok" class="social-icon">
+    </a>
+    <a href="https://t.me/@bboysis" target="_blank">
+        <img src="images/telegram-icon.jpg" alt="Telegram" class="social-icon">
+    </a>
+</div>
+            </div>
+            
+            <p class="copyright">© 2026 Coach Tesfaye. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ======================================== -->
+<!-- JAVASCRIPT                               -->
+<!-- ======================================== -->
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+ <!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" aria-label="back to top">
+    <span>⬆ </span>
+</button>
+</body>
+</html>
